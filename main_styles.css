@@ -1,0 +1,76 @@
+body {
+
+    background-color: #00ffff;
+
+    /* Text color: #e22b56 */
+    /* Box colors: #ffa605 */
+
+}
+
+#logo {
+
+ width: 250px;
+ float: left;
+
+}
+
+#frieren {
+
+  width: 400px;
+  margin: 20px;
+}
+
+
+nav {
+
+    height: 50px;
+    width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    float: right;
+    
+}
+
+nav a {
+
+    display: flex;
+    width: 100%;
+    flex: 1;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #e22b56;
+    font: Roboto;
+}
+
+nav a:hover {
+
+    color: #e22b56;
+    text-decoration: none;
+    background-color: #ffa605;
+    border-radius: 15px;
+}
+
+.info {
+
+    
+}
+
+main {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  color: #e22b56;
+}
+
+main h1 {
+  grid-column: 1 / 3;
+}
+
+main section {
+
+  padding: 10px;
+}
