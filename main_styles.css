@@ -1,4 +1,5 @@
 body {
+  background-color: #00ffff;
 
     background-color: #00ffff;
 
@@ -16,13 +17,11 @@ body {
 }
 
 #frieren {
-
   width: 400px;
   margin: 20px;
   
 
 }
-
 
 nav {
 
@@ -34,24 +33,22 @@ nav {
 }
 
 nav a {
-
-    display: flex;
-    width: 100%;
-    flex: 1;
-    height: 50px;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    color: #e22b56;
-    font: Roboto;
+  display: flex;
+  width: 100%;
+  flex: 1;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #e22b56;
+  font: Roboto;
 }
 
 nav a:hover {
-
-    color: #e22b56;
-    text-decoration: none;
-    background-color: #ffa605;
-    border-radius: 15px;
+  color: #e22b56;
+  text-decoration: none;
+  background-color: #ffa605;
+  border-radius: 15px;
 }
 
 #info {
@@ -78,11 +75,20 @@ main h1 {
 }
 
 main section {
-
   padding: 10px;
 }
 
 #contact {
 
   float: right;
+}
+.image2 {
+  align-items: center;
+}
+
+.text {
+  color: #e22b56;
+  align-items: center;
+  padding-left: 20%;
+  padding-right: 20%;
 }
