@@ -1,26 +1,36 @@
 body {
   background-color: #00ffff;
 
-  /* Text color: #e22b56 */
-  /* Box colors: #ffa605 */
+    background-color: #00ffff;
+
+    /* Text color: #e22b56 */
+    /* Box colors: #ffa605 */
 }
 
 #logo {
-  width: 250px;
-  float: left;
+
+ width: 250px;
+ float: left;
+ display: flex;
+
+ 
 }
 
 #frieren {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 400px;
-  margin: 20px;
+
 }
 
 nav {
-  height: 50px;
-  width: 250px;
-  display: flex;
-  justify-content: space-evenly;
-  float: right;
+
+    height: 50px;
+    width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    float: right;
 }
 
 nav a {
@@ -42,7 +52,14 @@ nav a:hover {
   border-radius: 15px;
 }
 
-.info {
+#info {
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+
+
 }
 
 main {
@@ -62,6 +79,10 @@ main section {
   padding: 10px;
 }
 
+#contact {
+
+  float: right;
+}
 .image2 {
   align-items: center;
 }
