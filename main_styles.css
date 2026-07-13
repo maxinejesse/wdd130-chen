@@ -4,20 +4,23 @@ body {
 
     /* Text color: #e22b56 */
     /* Box colors: #ffa605 */
-
 }
 
 #logo {
 
  width: 250px;
  float: left;
+ display: flex;
 
+ 
 }
 
 #frieren {
 
   width: 400px;
   margin: 20px;
+  
+
 }
 
 
@@ -28,7 +31,6 @@ nav {
     display: flex;
     justify-content: space-evenly;
     float: right;
-    
 }
 
 nav a {
@@ -52,9 +54,14 @@ nav a:hover {
     border-radius: 15px;
 }
 
-.info {
+#info {
 
-    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+
+
 }
 
 main {
@@ -73,4 +80,9 @@ main h1 {
 main section {
 
   padding: 10px;
+}
+
+#contact {
+
+  float: right;
 }
