@@ -72,3 +72,9 @@ main section {
   padding-left: 20%;
   padding-right: 20%;
 }
+
+
+#stark{
+  height: 600px;
+  justify-self: center;
+}
